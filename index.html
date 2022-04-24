@@ -421,6 +421,22 @@
                 </li>
                 </ul>
 </div>
+
+<div class="newsletter">
+    <div class="newsletter-head">ZAPISZ SIĘ DO NEWSLETTERA</div>
+<form class="footer-form">
+    <input class="sub-email" type="email" name="email" placeholder="E-mail"/>
+    
+<button type="submit" class="newsletter-btn">
+    Zapisz się 
+    
+    <svg class="send-icon" width="24" height="24">
+        <use href="./images/sprite.svg#icon-icon-send"></use>
+    </svg>
+</button>
+</form>
+</div>
+
 </div>
 </footer>
 
@@ -431,6 +447,60 @@
         <use href="./images/sprite.svg#icon-x"></use>
         </svg>
     </button>
+
+<form class="modal-form">
+<p class="modal-title">Zostaw dane w formularzu poniżej</p>
+
+        <ul class="modal-input-list">
+          <li class="modal-input-item">
+            <label for="name" class="input-label">Imię</label>
+            <input type="text" name="client-name" id="name" class="input-text-box" />
+            <svg class="input-icon">
+              <use href="./images/sprite.svg#icon-person"></use>
+            </svg>
+          </li>
+
+          <li class="modal-input-item">
+            <label for="tel" class="input-label">Telefon</label>
+            <input type="tel" name="client-tel" id="tel" class="input-text-box" />
+            <svg class="input-icon">
+              <use href="./images/sprite.svg#icon-phone"></use>
+            </svg>
+          </li>
+
+          <li class="modal-input-item">
+            <label for="email" class="input-label">Email</label>
+            <input type="email" name="client-email" id="email" class="input-text-box" />
+            <svg class="input-icon">
+              <use href="./images/sprite.svg#icon-email"></use>
+            </svg>
+          </li>
+
+          <li class="modal-input-item">
+            <label for="comment" class="input-label">Komentarz</label>
+            <textarea
+              class="input-comment-box"
+              name="client-comment"
+              id="comment"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </li>
+        </ul>
+
+        <label class="license-label">
+          <input type="checkbox" name="license-origin-cb" class="license-origin-cb" />
+          <svg class="license-svg-cb">
+            <use href="./images/sprite.svg#check"></use>
+          </svg>
+          <span>
+            Oświadczam iż akceptuję
+            <a href="#" class="license-link">Regulamin</a> i <a href="#" class="license-link">Politykę Prywatności.</a>
+          </span>
+        </label>
+        <button type="submit" class="button-submit">Wyślij</button>
+      </form>
+
+
 </div>
 </div>
 
